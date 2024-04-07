@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+body {
+    background-image: url(./img/sonoma.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    height: 70px;
+    color: #fff;
+    font-size: 22px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 17px;
+}
+
+header h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+form {
+    text-align: center;
+    width: 60vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 17px;
+    padding: 60px;
+}
+
+form li {
+    list-style: none;
+    width: 100%;
+    margin: 25px 50px;
+}
+
+form label {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #000;
+}
+
+form input {
+    font-size: 22px;
+    color: white;
+    display: flex;
+    width: 55vw;
+    height: 35px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+form input:focus {
+    outline: none;
+}
+
+form button {
+    width: 55vw;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: none;
+    transition: ease-in-out 0.3s;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #000;
+
+
+}
+
+form button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+form button:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+table td {
+    padding: 16px 8px;
+}
+table thead th {
+    padding: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5)
+}
+
+table tbody td {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+
+table thead {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #fff;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #000;
+}
+
+table tbody {
+    font-size: 24px;
+    color: #fff;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #000;
+}
+
+table {
+    text-align: center;
+    width: 60vw;
+    margin: 50px auto;
+    padding: 20px 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 17px;
+}
