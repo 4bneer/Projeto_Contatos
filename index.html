@@ -17,14 +17,13 @@
         <h1>Contatos</h1>
     </header>
 
-    <form>
+    <form id="form">
         <ul>
-            <li><label>Nome<input type="text"></label></li>
-            <li><label>Número<input type="tel"></label></li>
+            <li><label>Nome<input type="text" id="name"  required></label></li>
+            <li><label>Número<input type="number" id="tel"required></label></li>
             <li><button type="submit">Adicionar</button></li>
         </ul>
     </form>
-
     <table cellspacing="0"> <!--O cellspacing="0" faz tirar o espaçamento padrão de uma tabela-->
         <thead>
             <tr>
@@ -37,13 +36,9 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Abner José de Oliveira Batista</td>
-                <td>1123456789</td>
-            </tr>
         </tbody>
     </table>
 
 </body>
-
+<script src="./main.js"></script>
 </html>
